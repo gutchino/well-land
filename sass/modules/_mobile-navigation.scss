@@ -1,0 +1,33 @@
+header {
+  padding:15px;
+  background: #fff;
+  label {
+    margin-bottom: 0;
+  }
+  h1 {
+    margin-bottom: 0;
+  }
+}
+
+#nav-content {
+  background: #555;
+  padding: 0;
+  ul {
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    li {
+      background: #555;
+      border-bottom: 1px solid #666;
+      a {
+        font-family: "Yu Mincho", "YuMincho", serif;
+        display: block;
+        padding: 16px 20px 16px;
+        color: #ddd;
+        &:hover {
+          background: #444;
+        }
+      }
+    }
+  }
+}
+

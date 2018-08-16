@@ -1,0 +1,26 @@
+footer {
+	background: #ddd;
+	a {
+		color: #333;
+		&:hover {
+			color: #666;
+		}
+	}
+	ul{
+		li {
+			a {
+				display: block;
+				padding: 8px 0px;
+			}
+		}
+	}
+}
+
+.footerCopy {
+	border-top: 1px solid #ccc;
+	padding: 15px 0;
+	p {
+    	font-size: 0.8em;
+    	margin-bottom: 0;
+	}
+}

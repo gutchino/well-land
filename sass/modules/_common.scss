@@ -1,0 +1,83 @@
+p {
+	color: $well-land-text;
+    line-height: 1.7em;
+}
+
+a {
+	color: $well-land-pink;
+	&:hover {
+	    color: $well-land-pink;
+	    text-decoration: none;
+	}
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	li {
+		list-style-type: none;
+	}
+}
+
+.module {
+	@include max-screen($breakpoint-mobile) {
+		margin: 20px 0;
+		padding: 0 20px;
+	}
+}
+
+.btn, .navbar .navbar-nav .navbar-btn {
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    padding: 10px 48px 14px;
+    -webkit-transition-property: background-color,border-color,color,-webkit-box-shadow,-webkit-filter;
+    transition-property: background-color,border-color,color,-webkit-box-shadow,-webkit-filter;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-property: background-color,border-color,color,box-shadow,filter,-webkit-box-shadow,-webkit-filter;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    border-width: 0;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+	@include max-screen($breakpoint-mobile) {
+		display: block;
+		width: 100%;
+	}
+}
+
+.btn-pink {
+    color: #fff;
+    background-color: $well-land-pink;
+}
+
+input {
+    border: 1px solid #D0D0D0;
+    border-radius: 3px;
+    padding: 8px 12px 8px;
+    color: #333;
+    width: 100%;
+}
+textarea {
+    border: 1px solid #D0D0D0;
+    border-radius: 3px;
+    padding: 8px 12px 8px;
+    color: #333;
+    width: 100%;
+}
+select {
+    border: 1px solid #D0D0D0;
+    border-radius: 3px;
+    padding: 8px 12px 8px;
+    color: #333;
+    width: 100%;
+}
+
+.full-width {
+	width: 100%;
+	img {
+		width: 100%;
+	}
+}
