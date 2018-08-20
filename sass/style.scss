@@ -11,15 +11,4 @@
 @import "modules/_footer";
 @import "modules/_mobile-navigation";
 @import "modules/_common";
-
-
-.hoge {
-  font-size: 20px;
-  @include max-screen($breakpoint-tablet) {
-    font-size: 18px;
-  }
-  @include max-screen($breakpoint-mobile) {
-    font-size: 16px;
-  }
-}
-
+@import "modules/_wpcf7";

@@ -39,7 +39,7 @@
           <td>&yen;<?php echo number_format ( get_field('price_05_pickup') ); ?></td>
         </tr>
         <tr>
-          <th>軽食費（希望者のみ）</th>
+          <th>昼食費（希望者のみ）</th>
           <td>&yen;<?php echo number_format ( get_field('price_06_foods') ); ?></td>
         </tr>
         <tr>
