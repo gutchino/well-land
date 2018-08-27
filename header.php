@@ -22,7 +22,7 @@
     <div id="nav-drawer">
       <input id="nav-input" type="checkbox" class="nav-unshown">
       <label id="nav-open" for="nav-input"><span></span></label>
-		  <a href="<?php echo site_url(); ?>"><h1 style="display: inline-block; width: 80%; font-size: 18px; text-align: center;">ウェルランド～さくら～</h1></a>
+		  <a href="<?php echo home_url(); ?>"><h1 style="display: inline-block; width: 80%; font-size: 18px; text-align: center;">ウェルランド～さくら～</h1></a>
       <label class="nav-unshown" id="nav-close" for="nav-input"></label>
       <div id="nav-content">
         <?php wp_nav_menu( array('menu' => 'gMenu' )); ?>
