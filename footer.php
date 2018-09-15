@@ -1,19 +1,13 @@
 <?php
 ?>
-
+</div>
 <footer>
 	<div class="container">
-		<div class="row">
-			<div class="col-sm module">
-				<a href="<?php echo site_url(); ?>">ウェルランド～さくら～</a>
-			</div>
-			<div class="col-sm module">
-				<?php wp_nav_menu( array('menu' => 'footerMenu' )); ?>
-			</div>
-		</div>
-		<div class="footerCopy">
-			<p class="text-center full-width">&copy; <?php echo date( 'Y' ); ?> 株式会社 BIG MAKES</p>
-		</div>
+		<a class="footer_logo" href="<?php echo home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/logo_well-land_grey.png" alt="ウェルランド～さくら～" height="28px" /></a>
+		<?php wp_nav_menu( array('menu' => 'footerMenu' )); ?>
+	</div>
+	<div class="footerCopy">
+		<p class="text-center full-width">&copy; <?php echo date( 'Y' ); ?> 株式会社 BIG MAKES</p>
 	</div>
 </footer>
 

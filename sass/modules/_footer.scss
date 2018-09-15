@@ -1,16 +1,22 @@
 footer {
 	background: #ddd;
+	padding-top: 30px;
 	a {
 		color: #333;
 		&:hover {
 			color: #666;
 		}
 	}
+	.footer_logo {
+		display: block;
+		margin: 0 0 20px;
+	}
 	ul{
 		li {
 			a {
 				display: block;
-				padding: 8px 0px;
+			    padding: 2px 0px;
+			    font-size: 0.9rem;
 			}
 		}
 	}
@@ -18,6 +24,7 @@ footer {
 
 .footerCopy {
 	border-top: 1px solid #ccc;
+    margin-top: 20px;
 	padding: 15px 0;
 	p {
     	font-size: 0.8em;

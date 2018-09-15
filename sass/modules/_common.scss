@@ -19,10 +19,16 @@ ul {
 	}
 }
 
+.container {
+    display: block;
+    padding: 0 20px;
+}
+
 .module {
+    margin: 30px 0;
+    padding: 0;
 	@include max-screen($breakpoint-mobile) {
-		margin: 20px 0;
-		padding: 0 20px;
+		margin: 30px 0;
 	}
 }
 
