@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<div class="container">
 <section class="content module">
 
 <?php if ( have_posts() ) : ?>

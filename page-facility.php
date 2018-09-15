@@ -1,16 +1,24 @@
 <?php get_header(); ?>
+<div class="section page-header"> 
+  <div class="container">
+        <div class="row">
+          <h1><span class="logo">施設紹介</span><!-- <span class="category">About Us</span> --></h1>
+        </div>
+  </div>
+</div>
 
+<div class="container">
 <section>
-   <h1><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ttlbn_about.jpg" alt="施設紹介" class="full-width" /></h1>
-</section>
+   <h2 class="tit-col mb-4"><i class="fas fa-file-medical"></i>ウェルランドについて</h2>
+</section> 
 
-<section class="content module">
+<section class="content module conbg">
 
 <?php if ( have_posts() ) : ?>
   <?php while ( have_posts() ) : the_post(); ?>
     <?php the_content(); ?>
 
-    <table class="table table-bordered">
+    <table class="table table-bordered table-mb-block">
       <tbody>
         <tr>
           <th>施設名</th>

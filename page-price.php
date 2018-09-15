@@ -1,7 +1,16 @@
 <?php get_header(); ?>
-
+<div class="section page-header"> 
+  <div class="container">
+        <div class="row">
+          <h1><span class="logo">料金体系</span><!-- <span class="category">About Us</span> --></h1>
+        </div>
+  </div>
+</div>
+<div class="container">
 <section>
-   <h1><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ttlbn_about.jpg" alt="料金体系" class="full-width" /></h1>
+     <h2 class="tit-col mb-4"><i class="fas fa-dollar-sign"></i>
+
+料金表</h2>
 </section>
 
 <section class="content module">
@@ -10,8 +19,8 @@
   <?php while ( have_posts() ) : the_post(); ?>
     <?php the_content(); ?>
 
-    <table class="table table-striped">
-      <thead class="thead-dark">
+    <table class="table table-bordered">
+      <thead class="">
         <tr>
           <th>項目</th>
           <th>料金</th>

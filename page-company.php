@@ -1,8 +1,16 @@
 <?php get_header(); ?>
+<div class="section page-header"> 
+  <div class="container">
+        <div class="row">
+          <h1><span class="logo">運営会社</span><!-- <span class="category">About Us</span> --></h1>
+        </div>
+  </div>
+</div>
 
+<div class="container">
 <section>
-   <h1><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ttlbn_about.jpg" alt="施設紹介" class="full-width" /></h1>
-</section>
+   <h2 class="tit-col mb-4"><i class="fas fa-building"></i>会社概要<!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ttlbn_about.jpg" alt="施設紹介" class="full-width" /> --></h2>
+</section> 
 
 <section class="content module">
 
